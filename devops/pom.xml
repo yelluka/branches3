@@ -72,4 +72,16 @@
       </plugins>
     </pluginManagement>
   </build>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>LAPTOP-9OI1NAG1-releases</name>
+        <url>http://localhost:8081/artifactory/jenkins2</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>LAPTOP-9OI1NAG1-snapshots</name>
+        <url>http://localhost:8081/artifactory/jenkins2</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
